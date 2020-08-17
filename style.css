@@ -1,0 +1,71 @@
+/**
+Theme Name: Astra Child
+Author: Brainstorm Force
+Author URI: http://wpastra.com/about/
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child
+Template: astra
+*/
+
+/*==============LIST OF CONTENT===================
+0.Global Style
+1.Helper Classes
+    1.1 Sticky Header
+2.Elementor Classes (when build pages)
+3.Woocommerce Classes & Overwrite
+4.Unlimited Components
+
+==============END LIST OF CONTENT=============== */
+
+/*=== 0.Global Style === */
+
+html {
+	font-size: 62.5%;
+}
+@media screen and (max-width: 767px) {
+	html {
+		font-size: 62%;
+	}
+}
+body {
+	font-size: 1.6rem;
+	-ms-overflow-style: none;
+	overflow: -moz-scrollbars-none;
+	line-height: 1.4;
+}
+body::-webkit-scrollbar {
+	display: none;
+}
+@media screen and (max-width: 1025px) {
+	[data-elementor-type="wp-page"] .elementor-inner,
+	[data-elementor-type="single"] .elementor-inner,
+	[data-elementor-type="wp-post"] .elementor-inner,
+	[data-elementor-type="archive"] .elementor-inner {
+		overflow: hidden;
+	}
+}
+/*=== End of 0.Global Style === */
+
+/*=== 1.Helper Classes === ========= */
+/* =1-1.Sticky Header= */
+#m2-header {
+	transition: 0.3s all ease-in-out;
+}
+#m2-header.elementor-sticky--active {
+	background-color: white;
+	box-shadow: 0 2px 4px 0 rgba(76, 76, 75, 0.1);
+}
+
+/*=== End of 1.Helper Classes === */
+
+/*=== 2.Elementor Classes === ========= */
+
+/*=== End of 2.Elementor Classes === */
+
+/*=== 3.Woocommerce Classes & Overwrite === ========= */
+/*=== End of 3.Woocommerce Classes & Overwrite === */
+
+/*=== 4.Unlimited Components === ========= */
+/*=== End of 4.Unlimited Components === */
